@@ -7,7 +7,7 @@ function RegisterScreen() {
         <div className="col-md-3"></div>
         <div className="col-md-6">
           <div className="card mt-5">
-            <form className="p-4">
+            <form className="p-4"> 
               <h4 className="text-center">Create new Account</h4>
               <div class="form-row mt-2">
                 <div class="col-md-6 mb-3">
