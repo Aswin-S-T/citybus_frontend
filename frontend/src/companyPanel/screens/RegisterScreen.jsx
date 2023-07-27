@@ -9,7 +9,7 @@ function RegisterScreen() {
           <div className="card mt-5">
             <form className="p-4">
               <h4 className="text-center">Create new Account</h4>
-              <div class="form-row mt-2">
+              <div class="form-row mt-2"> 
                 <div class="col-md-6 mb-3">
                   <label for="validationServer01">First name</label>
                   <input
