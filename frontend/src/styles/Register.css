@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registerScreen{
+    width: 1512px;
+        height: 982px;
+        background: #B1D9DB;
+}
+.registerScreen.right-side{
+    width: 993px;
+        height: 982px;
+        flex-shrink: 0;
+        border-radius: 62px;
+            background: #FFF;
+}
+.logo_div {
+
+    height: 94px;
+    width: 130px;
+    float: left;
+    background: url('/public/logo_login.png');
+
+}
+.registerScreen h2{
+    width: 509px;
+        height: 118px;
+        flex-shrink: 0;
+        color: #FFF;
+            font-family: Telex;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 136.5%;
+            /* 43.68px */
+            letter-spacing: 2.56px;
+}

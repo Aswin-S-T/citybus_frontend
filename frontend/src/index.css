@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  /* background-color: #ff317e; */
+  /* background-color: #112339; */
+  background-color: #fbfbfb;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box {
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ff317e;
+}
+
+button.searchBtn {
+  background-color: #ff317e;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+p {
+  color: #ff317e;
+  font-family: sans-serif;
+  top: 15px;
+  position: relative;
+}
+
+button.bookBtn {
+  background-color: #ff317e;
+  color: white;
+  /* width: 100%; */
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+section {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #ff317e;
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+h2 {
+  color: #ff317e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/*Seat style*/
+.seat {
+  /* width: 10px;
+  height: 10px; */
+  background-color: #44ba54;
+  margin: 1px;
+  height: 35px;
+  width: 35px;
+  color: white;
+  text-align: center;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+.vertical-tabs {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  background-color: #f0f8ff;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.tabHeader {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.vertical-tab-list {
+  display: flex;
+  flex-direction: column;
+  /* border-right: 1px solid #ccc; */
+  width: 15%;
+  height: 100%;
+  /* background-color: #002244; */
+  /* background-color: #142b42; */
+  background-color: #ffffff;
+  color: rgb(59, 38, 38);
+  font-size: 19px;
+  font-weight: 500;
+  font-family: sans-serif;
+  border-radius: 60px 0 0 60px;
+
+}
+
+.vertical-tab {
+  padding: 10px;
+  width: 70%;
+  margin-left: 20px;
+  /* border-bottom: 1px solid #ccc; */
+  color: #86878c;
+  font-family: Averta-Regular;
+  font-size: 14.078px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.282px;
+  padding-left: 30px;
+  align-items: center;
+
+}
+
+.vertical-tab:last-child {
+  border-bottom: none;
+}
+
+.react-tabs__tab-panel {
+  flex: 1;
+  padding: 10px;
+}
+
+li.react-tabs__tab--selected {
+  /* background-color: #6F00FF; */
+  /* background-color: #1c4e6d; */
+  border-radius: 70.388px;
+  background: #F3F0FF;
+  color: #551FFF;
+  font-family: Averta-Regular;
+  font-size: 14.078px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.282px;
+  margin-left: 25px;
+  border: none;
+}
+
+ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.route-list {
+  background-color: #ff317e;
+  padding: 2px;
+  margin: 5px;
+  /* color: white; */
+  border-radius: 10px;
+}
+
+.route-list button {
+  background: transparent;
+  border: none;
+  /* color: white; */
+}
+
+.submitBtn {
+  background-color: #ff317e;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+}
+
+.dashboard {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  /* width: 300%;
+  height: 100%; */
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.DashboardCard {
+  display: flex;
+  flex-direction: row;
+  width: 230%;
+  height: 80%;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.react-tabs__tab-panel {
+  background-color: whitesmoke;
+}
+
+.fa-plus {
+  font-size: 30px;
+  background-color: #ff317e;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+.font {
+  color: #551FFF;
+  font-family: Averta-Regular;
+  font-size: 14.078px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.282px;
+}
+
+.booked {
+  background-color: red;
+}
+
+button {
+  border: none;
+}
+
+.available-seat,
+.booked-seat,
+.selected-seat {
+  width: 54px;
+  height: 18px;
+
+}
+
+.available-seat {
+  background-color: #44ba54;
+}
+
+.booked-seat {
+  background-color: yellow;
+}
+
+.selected-seat {
+  background-color: blue;
+}
+
+.DashboardHeading {
+  color: #15192C;
+  font-family: Averta-Semibold;
+  font-size: 28.155px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.563px;
+}
+
+.DashboardSubHeading {
+  color: #92959E;
+  font-family: Averta-Regular;
+  font-size: 17.67px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashboardBox {
+  border-radius: 11.262px;
+  opacity: 0.6499999761581421;
+  background: #FFF2E9;
+  width: 64.344px;
+  height: 64.344px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboardBoxTittle {
+  color: #616368;
+  font-family: AvertaStd-Bold;
+  font-size: 22.262px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashboardBoxNumber {
+  width: 7.743px;
+  height: 17.597px;
+  flex-shrink: 0;
+  color: #15192C;
+  font-family: Averta-Regular;
+  font-size: 14.078px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -10px;
+}
+
+.dashboardBoxDesign {
+  display: flex;
+}
+
+.dashboardLine {
+  width: 139.368px;
+  height: 0.704px;
+  background: #ECECEE;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.busList {
+  background-color: aliceblue;
+}
+
+.busListHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addBusButton {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #F5F5FA;
+
+  /* Shadow 3 */
+  box-shadow: -10px -10px 20px 0px #FFF, 10px 10px 20px 0px rgba(170, 170, 204, 0.50), 5px 5px 10px 0px rgba(170, 170, 204, 0.25), -5px -5px 10px 0px rgba(255, 255, 255, 0.50);
+}
+
+.TittleNumberBox {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.verticalLine {
+  width: 0.704px;
+  height: 57.718px;
+  background: #9b9b9e;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+
+}
+
+/*Notification screen*/
+.notificationCard {
+  background-color: white;
+  box-shadow: -10px -10px 20px 0px #FFF, 10px 10px 20px 0px rgba(247, 247, 255, 0.5), 5px 5px 10px 0px rgba(170, 170, 204, 0.25), -5px -5px 10px 0px rgba(255, 255, 255, 0.50);
+  border-radius: 10px;
+}
+
+.notificationHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar-img {
+  height: 80px;
+  width: 80px;
+}
+
+.time {
+  color: #1D1D1D;
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imageHeader {
+  display: flex;
+}
+
+.name {
+  color: #1D1D1D;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.notificationContent {}
+
+.notificationContent h5 {
+  color: #1D1D1D;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.notificationContent p {
+  color: #1D1D1D;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.notificationContent a {
+  color: blue;
+}
+
+.notificationScreen {
+  overflow-y: scroll;
+  /* width: 100%; */
+}
+
+.notificationScreen::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.notificationScreen::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/*ENd notification screen*/
+
