@@ -224,13 +224,38 @@ ul li {
 .DashboardCard {
   display: flex;
   flex-direction: row;
-  width: 230%;
-  height: 80%;
+  width: 330%;
+  height: 50%;
   padding: 10px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   margin-top: 50px;
+}
+
+.DashboardCardGraph {
+  width: 330%;
+  height: 180%;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.DashboardCardGraphComment2 {
+  width: 50%;
+  height: 180%;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.commentGraphProject {
+  display: flex;
 }
 
 .react-tabs__tab-panel {
@@ -311,6 +336,30 @@ button {
   border-radius: 11.262px;
   opacity: 0.6499999761581421;
   background: #FFF2E9;
+  width: 64.344px;
+  height: 64.344px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboardBox1 {
+  border-radius: 11.262px;
+  opacity: 0.6499999761581421;
+  background: #EDE8FF;
+  width: 64.344px;
+  height: 64.344px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboardBox2 {
+  border-radius: 11.262px;
+  opacity: 0.6499999761581421;
+  background: #EAF9FF;
   width: 64.344px;
   height: 64.344px;
   flex-shrink: 0;
@@ -434,7 +483,6 @@ button {
   text-transform: uppercase;
 }
 
-.notificationContent {}
 
 .notificationContent h5 {
   color: #1D1D1D;
@@ -473,3 +521,104 @@ button {
 
 /*ENd notification screen*/
 
+/*register screen design*/
+
+.registrationScreen .rightSide {
+  background-color: #B1D9DB;
+}
+
+.registrationScreen .row {
+  background-color: #B1D9DB;
+  height: 100vh;
+}
+
+.rightSide {
+  background-color: red;
+}
+
+h1 {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.5%;
+  /* 49.14px */
+  letter-spacing: 3.6px;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: #5C5C5C;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: 136.5%;
+  /* 25.935px */
+  letter-spacing: 1.52px;
+}
+
+.socialLogin {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLogin button {
+  width: 247px;
+  background-color: white;
+  height: 63px;
+  margin: 10px;
+  border: 1px solid #D8D3D3;
+}
+
+.google-logo {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+H4 {
+  color: #797979;
+  text-align: center;
+  font-family: Telex;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.5%;
+  /* 35.49px */
+  letter-spacing: 2.47px;
+}
+
+.registrationScreen h3 {
+  width: 509px;
+  height: 118px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Telex;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136.5%;
+  /* 43.68px */
+  letter-spacing: 2.56px;
+}
+
+img.banner-img {
+  width: 632px;
+  height: 658px;
+  flex-shrink: 0;
+  left: 170px;
+  position: relative;
+  z-index: 999;
+}
+
+/* .registrationScreen h1{
+  display: flex;
+  justify-content: flex-start;
+} */
+/*end registration screen design*/

@@ -1,37 +1,190 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.registerScreen{
-    width: 1512px;
-        height: 982px;
-        background: #B1D9DB;
-}
-.registerScreen.right-side{
-    width: 993px;
-        height: 982px;
-        flex-shrink: 0;
-        border-radius: 62px;
-            background: #FFF;
-}
-.logo_div {
 
-    height: 94px;
-    width: 130px;
-    float: left;
-    background: url('/public/logo_login.png');
+/* html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+} */
 
+/* body {
+    min-height: 100vh;
+    background-color: rgb(255, 30, 169);
+} */
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+} */
+
+image_displaying{
+    width: 50%;
+    height: auto;
+    background-color: #f10a0a;
 }
-.registerScreen h2{
-    width: 509px;
-        height: 118px;
-        flex-shrink: 0;
-        color: #FFF;
-            font-family: Telex;
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 136.5%;
-            /* 43.68px */
-            letter-spacing: 2.56px;
+
+section {
+    
+    width: 100%;
+    /* max-width: 600px;
+    min-height: 200px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* padding: 1rem; */
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* margin-top: 10px; */
+border-top-left-radius: 50px;
 }
+
+form {
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type='phone'],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  padding: 0.30rem;
+  border-radius: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #C4C4C4;
+width: 65%;
+    height: 28px;
+    flex-shrink: 0;
+  outline: none;
+padding: 10px;
+    margin-bottom: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* label,
+button {
+  margin-top: 0.5rem;
+} */
+
+label{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+button {
+    margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+.signinBtn{
+    width: 517;
+    height: 50px;
+    flex-shrink: 0;
+    fill: #A7CCCE;
+    background-color: #A7CCCE;
+    color: #FFF;
+        text-align: center;
+        font-family: Telex;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.5%;
+        /* 25.935px */
+        letter-spacing: 1.52px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.link p{
+    color: #6B6A6A;
+        font-family: Telex;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.5%;
+        /* 27.3px */
+        letter-spacing: 1.6px;
+}
+.link a{
+    color: #91B3B5;
+        font-family: Telex;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.5%;
+        letter-spacing: 1.6px;
+}
+::placeholder {
+    color: #5C5C5C;
+        font-family: Telex;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.5%;
+        /* 25.935px */
+        letter-spacing: 1.52px;
+}
+
+
+/* .errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+} */
+
+/* .line {
+    display: inline-block;
+} */
